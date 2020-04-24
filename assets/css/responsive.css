@@ -58,7 +58,7 @@
 		display: none;
 	}
 	
-	.menu-icon {
+	div .menu-icon {
 		display: block;
 	}
 }
@@ -73,5 +73,39 @@
 @media (max-width: 767px) {
 	.single-portfolio .portfolio-text .portfolio-title a {
 		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.topnav a {
+		display: none;
+	}
+	
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.topnav.responsive {
+		margin-top: 65px;
+	}
+	
+	.topnav {
+		margin-right: -42px;
+	}
+	
+	.topnav.responsive a.icon {
+		right: 0;
+	}
+	
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+		background-color: #262d42;
 	}
 }

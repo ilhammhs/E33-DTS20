@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Progate</title>
-		<link rel="stylesheet" href="assets/css/stylesheet.css">
-		<link rel="stylesheet" href="assets/css/responsive.css">
-		<link rel="stylesheet" href="assets/css/animasi.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/animasi.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
 	<body>
@@ -15,12 +15,13 @@
 				<div class="header-left">
 					<img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
 				</div>
-				<!-- Tambahkan ikon menu disini -->
-				<tombol class="menu-icon">
-					<span class="fa fa-bars"></span>
-				</tombol>
-				<div class="header-right">
-					<a href="#beranda">Beranda</a>
+				<div class="menu-icon">
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<span class="fa fa-bars"></span>
+					</a>
+				</div>
+				<div class="topnav" id="myTopnav">
+					<a href="#beranda" class="active">Beranda</a>
 					<a href="#ext1">Tim</a>
 					<a href="#ext2">Tim</a>
 				</div>
@@ -139,13 +140,13 @@
 			</div>
 		</footer>
 
-			<script src="assets/js/jquery-1.12.4.min.js"></script>
-			<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-			<script src="assets/js/slick.min.js"></script>
-			<script src="assets/js/jquery.magnific-popup.min.js"></script>
-			<script src="assets/js/isotope.pkgd.min.js"></script>
-			<script src="assets/js/wow.min.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="js/jquery-1.12.4.min.js"></script>
+			<script src="js/imagesloaded.pkgd.min.js"></script>
+			<script src="js/slick.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/isotope.pkgd.min.js"></script>
+			<script src="js/wow.min.js"></script>
+			<script src="js/main.js"></script>
 
 		<script>
 		$(document).ready(function(){
@@ -161,6 +162,15 @@
 				}
 			});
 		});
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			}
+			else {
+				x.className = "topnav";
+			}
+		}
 		</script>
 	</body>
 </html>
