@@ -1,0 +1,77 @@
+/* untuk perangkat yang memiliki resolusi tinggi*/
+@media all and (max-width: 1928px) {
+	.txt-contents {
+		width: 100%;
+		margin-top: 0px;
+		font-size: 16px;
+		color: black;
+	}
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+	.lesson {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	
+	.top-wrapper h1 {
+		font-size: 32px;
+	}
+	
+	.heading h2 {
+		font-size: 20px;
+	}
+	
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+	
+	footer {
+		text-align: center;
+	}
+	
+	.lesson {
+		width: 100%;
+	}
+	
+	.btn {
+		width: 100%;
+	}
+	
+	.top-wrapper {
+		text-align: left;
+	}
+	
+	.top-wrapper h1 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	
+	.top-wrapper p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	.header-right {
+		display: none;
+	}
+	
+	.menu-icon {
+		display: block;
+	}
+}
+
+/* Baru */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.single-portfolio .portfolio-text .portfolio-title a {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.single-portfolio .portfolio-text .portfolio-title a {
+		font-size: 20px;
+	}
+}
