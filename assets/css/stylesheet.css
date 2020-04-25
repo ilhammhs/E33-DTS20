@@ -142,9 +142,11 @@ header {
 	top: 90%;
 	width: 100%;
 	color: black;
-	font-weight: 10;
 	font-size: 20px;
 	text-decoration-line: underline;
+	font-weight: bold;
+	letter-spacing: 2px;
+	opacity: 0.7;
 }
 
 .text-contents{
@@ -170,7 +172,11 @@ header {
 }
 
 .heading h2 {
-	font-weight: normal;
+	font-size:32px;
+	font-weight: bold;
+	color: black;
+	opacity: 0.7;
+	
 }
 
 .lesson {

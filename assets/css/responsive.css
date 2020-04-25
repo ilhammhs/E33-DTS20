@@ -54,6 +54,13 @@
 		width: 100%;
 	}
 
+	.work-icon p {
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		opacity: 0.7;
+	}
+
 	.lesson {
 		width: 100%;
 	}
@@ -79,6 +86,7 @@
 	.header-right {
 		display: none;
 	}
+
 	
 	div .menu-icon {
 		display: block;
