@@ -139,56 +139,60 @@
 	</div>
 	<footer>
 		<div class="container">
-			<img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+			<a href="https://progate.com/" target="_blank">
+				<img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+			</a>
 			<p id="footer-text">Learn to code, learn to be creative.</p>
 			<div class="icon-mode">
 				<p id="footer-text">Coba Click di sini :</p>
 				<svg id="darkMode" width="45" height="45" viewBox="0 0 45 45" fill="none">
 					<path class="sun" d="M45 22.5C45 34.9264 34.9264 45 22.5 45C10.0736 45 0 34.9264 0 22.5C0 10.0736 10.0736 0 22.5 0C34.9264 0 45 10.0736 45 22.5Z" fill="#FAFF00"/>
 				</svg>
-				</div>
-				<p id="footer-text">Sponsored By :</p>
-				<img src="assets/foto/digitalent.png">
 			</div>
+			<p id="footer-text">Sponsored By :</p>
+			<a href="https://digitalent.kominfo.go.id/" target="_blank">
+				<img src="assets/foto/digitalent.png">
+			</a>
+		</div>
 
-		</footer>
+	</footer>
 
 
-		<script src="assets/js/anime.min.js"></script>
-		<script src="assets/js/App.js"></script>
-		<script src="assets/js/jquery-1.12.4.min.js"></script>
-		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-		<script src="assets/js/slick.min.js"></script>
-		<script src="assets/js/jquery.magnific-popup.min.js"></script>
-		<script src="assets/js/isotope.pkgd.min.js"></script>
-		<script src="assets/js/wow.min.js"></script>
-		<script src="assets/js/main.js"></script>
+	<script src="assets/js/anime.min.js"></script>
+	<script src="assets/js/App.js"></script>
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/main.js"></script>
 
-		<script>
-			$(document).ready(function(){
-				$("a").on('click', function(event) {
-					if (this.hash !== "") {
-						event.preventDefault();
-						var hash = this.hash;
-						$('html, body').animate({
-							scrollTop: $(hash).offset().top
-						}, 800, function(){
-							window.location.hash = hash;
-						});
-					}
-				});
+	<script>
+		$(document).ready(function(){
+			$("a").on('click', function(event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function(){
+						window.location.hash = hash;
+					});
+				}
 			});
+		});
 
-			function myFunction() {
-				var x = document.getElementById("myTopnav");
-				if (x.className === "topnav") {
-					x.className += " responsive";
-				}
-				else {
-					x.className = "topnav";
-				}
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
 			}
+			else {
+				x.className = "topnav";
+			}
+		}
 
-		</script>
-	</body>
-	</html>
+	</script>
+</body>
+</html>
