@@ -10,6 +10,11 @@
 
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+	.work {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+
 	.lesson {
 		width: 50%;
 		margin-bottom: 50px;
@@ -32,6 +37,14 @@
 		text-align: center;
 	}
 	
+	.work-wrapper{
+		margin-top: -75%;
+	}
+
+	.work {
+		width: 100%;
+	}
+
 	.lesson {
 		width: 100%;
 	}
@@ -106,6 +119,6 @@
 		float: none;
 		display: block;
 		text-align: left;
-		background-color: #262d42;
+		background-color: #384548;
 	}
 }
