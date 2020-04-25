@@ -42,11 +42,12 @@
 		text-align: center;
 	}
 
-	.top-wrapper{
+	.top-wrapper {
 		margin-top: -12%;
+		text-align: left;
 	}
 	
-	.work-wrapper{
+	.work-wrapper {
 		margin-top: -40%;
 	}
 
@@ -68,11 +69,7 @@
 	.btn {
 		width: 100%;
 	}
-	
-	.top-wrapper {
-		text-align: left;
-	}
-	
+
 	.top-wrapper h1 {
 		font-size: 24px;
 		line-height: 36px;
@@ -90,6 +87,14 @@
 	
 	div .menu-icon {
 		display: block;
+	}
+
+	.heading h2{
+		font-size: 24px;
+	}
+
+	.heading h2{
+		font-size: 20px;
 	}
 }
 
