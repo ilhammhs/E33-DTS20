@@ -136,4 +136,13 @@
 		text-align: left;
 		background-color: black;
 	}
+
+	.icon-mode{
+		margin-top: 10px;
+		margin-left: 0;	
+	}
+	svg{
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
 }

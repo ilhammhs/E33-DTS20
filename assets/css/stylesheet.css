@@ -226,7 +226,7 @@ footer p {
 }
 
 footer {
-	background-color: black;
+	background-color: rgb(151, 202, 255);
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
@@ -448,4 +448,20 @@ div .menu-icon {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+/*CSS SVG*/
+
+#footer-text {
+	color: black;
+}
+
+.icon-mode{
+	margin-left: 90%;
+}
+
+svg{
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: 10px;
 }
