@@ -4,7 +4,7 @@ const sunPath = "M45 22.5C45 34.9264 34.9264 45 22.5 45C10.0736 45 0 34.9264 0 2
 const darkMode = document.querySelector("#darkMode");
 let toggle = false;
 
-//We NNED TO CLICK ON THE SUN
+//Ketika svg di click
 
 darkMode.addEventListener('click', () => {
 
@@ -28,8 +28,8 @@ darkMode.addEventListener('click', () => {
     },"-= 350")
     .add({
         targets: "footer",
-        backgroundColor: toggle ? 'rgb(151, 202, 255)' : "rgb(0,0,0)",
-        color : toggle ? "rgb(0,0,0)" : "rgb(151, 202, 255)"
+        backgroundColor: toggle ? 'rgb(142, 194, 254)' : "rgb(0,0,0)",
+        color : toggle ? "rgb(0,0,0)" : "rgb(142, 194, 254)"
     },"-= 700")
     .add({
         targets: "#footer-text",
